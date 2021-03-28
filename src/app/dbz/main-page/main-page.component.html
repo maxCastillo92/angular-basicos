@@ -1,0 +1,15 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <app-personajes></app-personajes>
+    <!-- Lo que está en corchetes es el nombre de la propiedad INPUT del componente hijo -->
+    <!-- Lo que recibe la propiedad es la colección de personajes en componenrte padre -->
+  </div>
+  <div class="col">
+   <app-agregar
+    [nuevo]="nuevo"
+    ></app-agregar>
+  </div>
+</div>
